@@ -201,17 +201,14 @@ void load_pixels(Color4*** pixels, int* width, int* height, const char* filename
         return;
     }
 
-    // Skip the rest of the header line
     int ch = fgetc(fin);
     while (ch != EOF && ch != '\n')
         ch = fgetc(fin);
 
-    // Free old pixels if they exist
     if (*pixels != NULL) {
         free_pixels(*pixels, *height);
     }
 
-    // Allocate new pixels with the dimensions from file
     *pixels = alloc_pixels(file_w, file_h);
     if (!*pixels) {
         printf("load_pixels: failed to allocate memory\n");
@@ -221,12 +218,10 @@ void load_pixels(Color4*** pixels, int* width, int* height, const char* filename
 
     init_pixels(*pixels, file_w, file_h);
 
-    // Get file size
     fseek(fin, 0, SEEK_END);
     long end_pos = ftell(fin);
     fseek(fin, 0, SEEK_SET);
 
-    // Skip header line again
     fscanf(fin, "%*d %*d");
     ch = fgetc(fin);
     while (ch != EOF && ch != '\n')
@@ -279,7 +274,6 @@ void load_pixels(Color4*** pixels, int* width, int* height, const char* filename
         }
     }
 
-    // Update the width and height
     *width = file_w;
     *height = file_h;
 
@@ -975,7 +969,6 @@ int main(int argc, char* argv[])
     strcpy(out_filename, default_out_path);  // Use full fucking path
 
     if (argc == 2) {
-        // For opening file directly if
         char* ext = strrchr(argv[1], '.');
         if (ext && (strcmp(ext, ".him") == 0 || strcmp(ext, ".HIM") == 0)) {
             strcpy(load_filename, argv[1]);
@@ -1021,11 +1014,9 @@ int main(int argc, char* argv[])
     int canvas_h = height * scale;
 
     if (strlen(load_filename) > 0) {
-        // Pass pointers to pixels, width, and height
         load_pixels(&pixels, &width, &height, load_filename);
         printf("Loaded file %s (%dx%d)\n", load_filename, width, height);
 
-        // Recalculate scale and zoom based on new dimensions
         compute_initial_scale();
         scale = initial_scale;
 
@@ -1072,7 +1063,7 @@ int main(int argc, char* argv[])
     printf("Mouse working\n");
 
     Color4 palette[PALETTE_SIZE];
-    load_palette(palette, palette_path);  // Use full path
+    load_palette(palette, palette_path);  // Use full path for fucks
     printf("Palette working\n");
 
     int selected_color = 0;
@@ -1213,7 +1204,7 @@ int main(int argc, char* argv[])
 
             if (event.type == SDL_MOUSEBUTTONDOWN) {
                 if (event.button.button == SDL_BUTTON_MIDDLE && mouse.x < palette_left()) {
-                    // Start selection
+                    // Start selection :)
                     selecting = true;
                     selection_start(hover_px, hover_py);
                     printf("Selection started at (%d,%d)\n", hover_px, hover_py);
