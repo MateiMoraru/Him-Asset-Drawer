@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2812AFF8-55CF-470A-B2DB-A6A33FF8B533}|HIM-Asset-Drawer\\HIM-Asset-Drawer.vcxproj|C:\\Users\\matei\\Desktop\\programare\\C\\HIM-Asset-Drawer\\HIM-Asset-Drawer\\asset_drawer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2812AFF8-55CF-470A-B2DB-A6A33FF8B533}|HIM-Asset-Drawer\\HIM-Asset-Drawer.vcxproj|solutionrelative:HIM-Asset-Drawer\\asset_drawer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2812AFF8-55CF-470A-B2DB-A6A33FF8B533}|HIM-Asset-Drawer\\HIM-Asset-Drawer.vcxproj|C:\\Users\\matei\\Desktop\\programare\\C\\HIM-Asset-Drawer\\x64\\Debug\\assets\\thumbnail.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2812AFF8-55CF-470A-B2DB-A6A33FF8B533}|HIM-Asset-Drawer\\HIM-Asset-Drawer.vcxproj|solutionrelative:x64\\Debug\\assets\\thumbnail.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2812AFF8-55CF-470A-B2DB-A6A33FF8B533}|HIM-Asset-Drawer\\HIM-Asset-Drawer.vcxproj|C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\HIM-Asset-Drawer\\asset_drawer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2812AFF8-55CF-470A-B2DB-A6A33FF8B533}|HIM-Asset-Drawer\\HIM-Asset-Drawer.vcxproj|solutionrelative:HIM-Asset-Drawer\\asset_drawer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2812AFF8-55CF-470A-B2DB-A6A33FF8B533}|HIM-Asset-Drawer\\HIM-Asset-Drawer.vcxproj|C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\HIM-Asset-Drawer\\Text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2812AFF8-55CF-470A-B2DB-A6A33FF8B533}|HIM-Asset-Drawer\\HIM-Asset-Drawer.vcxproj|solutionrelative:HIM-Asset-Drawer\\Text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "thumbnail.ico -  [English (United Kingdom)] - Icon [64x64, 24 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\x64\\Debug\\assets\\thumbnail.ico",
+              "RelativeDocumentMoniker": "x64\\Debug\\assets\\thumbnail.ico",
+              "ToolTip": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\x64\\Debug\\assets\\thumbnail.ico -  [English (United Kingdom)] - Icon [64x64, 24 bit, BMP]",
+              "RelativeToolTip": "x64\\Debug\\assets\\thumbnail.ico -  [English (United Kingdom)] - Icon [64x64, 24 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2026-02-21T13:28:46.72Z",
+              "EditorCaption": " -  [English (United Kingdom)] - Icon [64x64, 24 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Text.h",
+              "DocumentMoniker": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\HIM-Asset-Drawer\\Text.h",
+              "RelativeDocumentMoniker": "HIM-Asset-Drawer\\Text.h",
+              "ToolTip": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\HIM-Asset-Drawer\\Text.h",
+              "RelativeToolTip": "HIM-Asset-Drawer\\Text.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T08:54:48.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "asset_drawer.c",
+              "DocumentMoniker": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\HIM-Asset-Drawer\\asset_drawer.c",
+              "RelativeDocumentMoniker": "HIM-Asset-Drawer\\asset_drawer.c",
+              "ToolTip": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\HIM-Asset-Drawer\\asset_drawer.c",
+              "RelativeToolTip": "HIM-Asset-Drawer\\asset_drawer.c",
+              "ViewState": "AgIAAOwEAAAAAAAAAAAYwKcEAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-15T08:49:48.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "asset_drawer.h",
+              "DocumentMoniker": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\HIM-Asset-Drawer\\asset_drawer.h",
+              "RelativeDocumentMoniker": "HIM-Asset-Drawer\\asset_drawer.h",
+              "ToolTip": "C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\HIM-Asset-Drawer\\asset_drawer.h",
+              "RelativeToolTip": "HIM-Asset-Drawer\\asset_drawer.h",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T08:50:18.241Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

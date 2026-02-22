@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.him]
+@="HimFile"
+
+[HKEY_CLASSES_ROOT\HimFile]
+@="HIM File"
+
+[HKEY_CLASSES_ROOT\HimFile\DefaultIcon]
+@="C:\\Users\\matei\\Desktop\\programare\\C\\Him-Asset-Drawer\\x64\\Debug\\assets\\thumbnail.ico"

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HIM-Asset-Drawer/HIM-Asset-Drawer.vcxproj" Id="2812aff8-55cf-470a-b2db-a6a33ff8b533" />
+</Solution>

@@ -1,0 +1,1 @@
+reg add "HKEY_CLASSES_ROOT\.him\DefaultIcon" /ve /d "C:\Users\matei\Desktop\programare\C\Him-Asset-Drawer\x64\Debug\assets\thumbnail.ico" /f
